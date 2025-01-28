@@ -26,11 +26,12 @@ if (sum > 10) {
 
 const promptText = prompt("Введіть текст :");
 
-if (promptText.includes("JavaScript")) {
+if (promptText.toLowerCase().includes("javascript")) {
   console.log("Текст містить слово JavaScript");
 } else {
   console.log("Текст не містить слово JavaScript");
 }
+
 // 4=============
 
 const promptNumber = Number(prompt("Введіть ваше число :"));
