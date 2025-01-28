@@ -26,7 +26,7 @@ if (sum > 10) {
 
 const promptText = prompt("Введіть текст :");
 
-if (promptText.toLowerCase() === "JavaScript") {
+if (promptText.includes("JavaScript")) {
   console.log("Текст містить слово JavaScript");
 } else {
   console.log("Текст не містить слово JavaScript");
